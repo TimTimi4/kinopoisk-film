@@ -18,7 +18,7 @@ function App() {
 
 		<FilmText data={data.actors}/>
 		<div className="rating">Рейтинг IMDB: <strong>{data.rating}</strong></div>
-		<div className="linkFilm">{data.url}</div>
+		<a href={data.url} className="linkFilm">{data.url}</a>
 
 	</div>
   );
